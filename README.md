@@ -9,11 +9,8 @@ customize Google's DeepLab IMSEG with my appetite
 ### run the segmentation 
 > cd ~/deeplab_imseg && python run.py
 
-#### it takes a while at the first to download tf models named in (total 4 different models are availabe 
+#it takes a while at the first to download 4 different tf models
+#each model name is one of ['mobilenetv2_coco_voctrainaug', 'mobilenetv2_coco_voctrainval','xception_coco_voctrainaug', 'xception_coco_voctrainval'] with the size of 24MB, 24MB, 420MB, 420MB resp.
 
-
-with the size 24MB, 24MB, 420MB, 420MB resp.)
-
-#### def
-
-#### if your task is simple, 
+### these names could be used as a option of run.py such as
+> python run.py --model mobilenetv2_coco_voctrainaug
