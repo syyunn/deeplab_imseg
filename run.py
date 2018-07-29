@@ -50,6 +50,12 @@ if __name__ == "__main__":
     #@title Select and download models {display-mode: "form"}
     MODEL_CAND = download
 
+    if not os.path.exists("./models/"):
+        os.makedirs("./models/")
+    if not os.path.exists("./out/"):
+        os.makedirs("./out/")
+
+
     for i in range(len(MODEL_CAND)):
         MODEL_NAME = MODEL_CAND[i]
 
