@@ -16,4 +16,4 @@ Customized Google's DeepLab IMSEG to use local img paths
 ### Those model names could be used as an option of run.py 
 > python run.py --model mobilenetv2_coco_voctrainaug
 
-#use small modles if your task is simple
+#use small modles if your task is simple. Default is the big one. 
