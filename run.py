@@ -91,7 +91,7 @@ if __name__ == "__main__":
     im_type= ["png", "jpg", "jpeg"]
     for i in range(len(im_type)):
         print(glob.glob("./img/*."+im_type[i]))
-        images = images + glob.glob("./img/*."+im_type[i])
+        images = images + sorted(glob.glob("./img/*."+im_type[i]))
         
     for i in range(len(images)):
         with open(images[i], "rb") as f:
