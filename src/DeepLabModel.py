@@ -50,9 +50,9 @@ class DeepLabModel(object): #object gets filepath of inference model
       resized_image: RGB image resized from original input image.
       seg_map: Segmentation map of `resized_image`.
     """
-    width, height = image.size
-    resize_ratio = 1.0 * self.INPUT_SIZE / max(width, height)
-    target_size = (int(resize_ratio * width), int(resize_ratio * height))
+    #width, height = image.size
+    #resize_ratio = 1.0 * self.INPUT_SIZE / max(width, height)
+    target_size = (256, 256)
     resized_image = image.convert('RGB').resize(target_size, Image.ANTIALIAS)
     batch_seg_map = self.sess.run(
         self.OUTPUT_TENSOR_NAME,
