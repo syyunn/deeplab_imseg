@@ -2,8 +2,8 @@
 Customized Google's DeepLab IMSEG to use local img paths not url 
 
 
-# What is deeplab_image_segmentation?
-Refer to https://github.com/tensorflow/models/tree/master/research/deeplab
+### What is deeplab_image_segmentation?
+Refer to https://github.com/tensorflow/models/tree/master/research/deeplab. But don't recommend to read. Everything is in here to use this network with your local machine dude. 
 
 ### Git clone this repo
 > cd ~ && git clone https://github.com/syyunn/deeplab_imseg
