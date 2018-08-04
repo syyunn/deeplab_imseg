@@ -12,7 +12,7 @@ Customized Google's DeepLab IMSEG to use local img paths
 
 ##### It takes a while at the first time to download 4 different tf models
 
-#The name of each model is one of ['mobilenetv2_coco_voctrainaug', 'mobilenetv2_coco_voctrainval','xception_coco_voctrainaug', 'xception_coco_voctrainval'] with the size of 24MB, 24MB, 420MB, 420MB respectively.
+##### The name of each model is one of ['mobilenetv2_coco_voctrainaug', 'mobilenetv2_coco_voctrainval','xception_coco_voctrainaug', 'xception_coco_voctrainval'] with the size of 24MB, 24MB, 420MB, 420MB respectively.
 
 ##### Those model names could be used as an option of run.py 
 
